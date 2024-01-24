@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,300;0,400;1,400&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section#textoinicial {
+    justify-content: space-between;
+    color: #BBB;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    position: absolute;
+    top: 20%;
+    right: 80%;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    height: 20%;
+}
+
+section#textoinicial > p {
+    display: flex;
+    width: 6vw;
+    height: 1.85vh;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    
+    
+}
+
+section#maincontent {
+    margin-right: 25%;
+    position: absolute;
+    width: 85vw;
+    height: 25vh;
+    top: 10vh;
+    left: 5vw;   
+}
+
+
+section#rightsidecard {
+    padding-left: 22vw;
+    width: 84vw;
+}
+
+section#rightsidecard > h3 {
+    color: #173D80;
+    font-family: 'Asap',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+}
+
+section#rightsidecard > p {
+    color: #787878;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+section#datetext {
+    display: flex;
+    color: #173D80;
+    font-family: 'Asap',sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; 
+}
+
+
+
+section#datetext > p {
+    margin-left: 0.5vw;
+    margin-top: 0.16vh;
+}
+
+section#maincontent > h1 {
+    position: inherit;
+    bottom: 16vh;
+    right: 35vw;
+    color: #173D80;
+    font-family: 'Asap', sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: -15vh;
+}
+
+div.cards {
+    position: absolute;
+    margin-left: 5vw;
+
+}
+
+div.cards img {
+    position: absolute;
+    flex-direction: column;
+    width: 388.33px;
+    height: 218.42px; 
+    border-radius: 4px;  
+}
+
+
+section#noticiacompleta {
+    margin-top: 5.5vh;
+    text-decoration: none;
+    color: #173D80;
+    font-family: 'Asap',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+section#noticiacompleta > a {
+    text-decoration: none;
+}
+
+section#noticiacompleta > svg  {
+    position: absolute;
+    top: 21.4vh;
+    margin-left: 0.5vw;
+}
+
+div.iframes {
+    flex-direction: column;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-20%, 10%);
+    width: 201vh;
+    gap: 10vh;
+}
+
+div.iframes > iframe {
+    height: 45vh;
+    margin-top: -8vh;
+}

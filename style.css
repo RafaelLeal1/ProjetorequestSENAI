@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,300;0,400;1,400&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 4vh;
+    width: 100%;
+    height: 5vw;
+    flex-shrink: 0;
+    background: #004C9B;
+}
+
+
+p#itabira {
+    position: absolute;
+    color: #FFF;
+    font-family: 'Asap', sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 10px;
+    flex-shrink: 0;
+    bottom: 75%;
+    left: 3.5%;
+    width: 29px;
+    height: 13px;
+}
+
+header > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul li {
+    margin-left: 5.0vw;
+    color: #FFF;
+    font-family: 'Asap',sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    list-style-type: none;
+}
+
+section#ondadireita {
+    position: absolute;
+    right: 0vw;
+    top: 4vh;
+    z-index: -1;
+    height: 1330.763px;
+    max-width: 1670px;
+}
+
+section#ondaesquerda {
+    position: absolute;
+    top: 22vh;
+    z-index: -3;
+}
+
+section#textoinicial {
+    justify-content: space-between;
+    color: #BBB;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    position: absolute;
+    top: 20%;
+    right: 80%;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    height: 20%;
+}
+
+section#textoinicial > p {
+    display: flex;
+    width: 6vw;
+    height: 1.85vh;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.grid-container {
+    align-items: start;
+    position: relative;
+    top: 45vh;
+    display: grid;
+    grid-template-columns: 28% 60%;
+    gap: 30px;
+    padding-top: 10vh;
+    padding-left: 10vw;
+    z-index: 99;
+}
+
+
+
+.image-column {
+    padding: 20px;
+}
+
+.text-column {
+    padding: 20px;
+}
+
+section#hr {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 40vh;
+}
+
+section > h1 {
+    color: #173D80;
+    font-family: 'Asap',sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.6px; 
+    margin-top: -4vh;
+}
+
+section > hr {
+    width: 80%;
+    margin: auto;
+}
+
+section#datetext {
+    display: flex;
+    
+}
+
+section#datatext > svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    color: #232735;
+}
+
+section#datetext > p {
+    color: #173D80;
+    font-family: 'Asap',sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+    margin-left: 0.5vw;
+}
+
+section#rightsidecard > h3 {
+    color: #173D80;
+    font-family: 'Asap',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 130% */
+}
+
+section#rightsidecard > p {
+    color: #787878;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+section#noticiacompleta {
+    margin-top: 6vh;
+}
+section#noticiacompleta > a {
+    color: #173D80;
+    text-decoration: none;
+    font-family: 'Asap', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+section#noticiacompleta > a:hover {
+    color: #005eff;
+    
+}
+
+section#noticiacompleta > svg {
+    position: absolute;
+    top: -5.4vh;
+    right: 48vw;
+}
+
+section#noticiacompleta > svg:hover {
+    color: #005eff;
+    
+}
+
+div#faixa {
+    height: 45px;
+    flex-shrink: 0;
+    background: #004C9B;
+    width: 98.93vw;
+    margin: auto;
+    position: absolute;
+    top: 50vh;
+  }
+  
+  
+  footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cria quatro colunas de largura igual */
+    padding: 2.7%; /* Espaçamento interno para melhorar a aparência */
+    height: 430px;
+    transform: translate(0%, 85%);
+    z-index: 99;
+    background: #004C9B;
+    font-family: "Noto Sans";
+    margin-top: 10vh;
+  }
+  
+  footer .grupo {
+    color: #fff; /* Cor do texto nas células */
+    padding: 0px; /* Espaçamento interno das células */
+    text-align: left; /* Alinhamento do texto no centro */
+    line-height: 175%;
+  }
+  
+  div#inline {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    height: 30px;
+    transform: translate(0%, 50%);
+  }
